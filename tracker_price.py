@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def track_price(url):
-    # Отправляем GET-запрос на сайт
+    # Отправляем GET-запрос на сайт (первоночальный)
     response = requests.get(url)
 
     # Проверяем, что запрос успешен
